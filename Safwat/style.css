@@ -1,0 +1,64 @@
+
+h1{font-size: 16px; color: #3BBADB;}
+h2{font-size: 25px;color: #008AAA}
+
+
+ 
+
+
+body {
+    border-style:solid;
+    border-radius: 0px;
+    border-color: #3BBADB;
+   
+    font-family: sans-serif;
+    margin: 5%;
+    padding: 2.5%;
+}
+
+/* Header, main, and footer styles */
+header {
+    .dev1{
+        float: left;
+        width: 60%;
+    }
+    .image {
+        float: right;
+        width: 40%;
+        display: inline-flex;
+        flex-direction: row;
+      }
+      
+      img {
+        float: left;
+        margin-right: 10px;
+      }
+      
+      p {
+        margin-left: 10px;
+      }
+    
+
+   
+    
+    padding: 20px;
+}
+
+
+main {
+    img{box-shadow: 1px 10px 1px #3BBADB;border-bottom-left-radius: 50%;}
+    
+    
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust layout for smaller screens */
+}
